@@ -3,7 +3,6 @@ $(document).ready(function () {
   $("#button-input").click(function (e) {
     e.preventDefault();
     var text = $("#text-input").val();
-    console.log(text);
     $.ajax({
       url: "http://localhost:8080/predict",
       type: "POST",
