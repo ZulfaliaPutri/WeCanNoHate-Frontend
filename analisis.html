@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>We Can No Hate Frontend</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./backup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="title">
+          <a href="index.html">We Can No Hate</a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="info.html">Information</a></li>
+            <li class="active"><a href="analisis.html">Analisis</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="main-container">
+      <h1>We Can No Hate</h1>
+      <form>
+        <label for="text-input" class="input-label"
+          >masukkan teks yang anda ingin periksa sentimen kebenciannya di bawah
+        </label>
+        <textarea id="text-input" type="text" rows="7"></textarea>
+        <button id="button-input" type="submit">Prediksi</button>
+      </form>
+      <div id="result-hate" class="result hide">
+        <h3>Teks Di Atas Merupakan Hate Speech</h3>
+        <p>
+          Hate Speech tidaklah baik untuk diri sendiri maupun subjek sasaran
+          dari hate speech itu sendiri
+        </p>
+      </div>
+      <div id="result-not-hate" class="result hide">
+        <h3>Teks Di Atas Bukan Hate Speech</h3>
+        <p>
+          Menghindari hate speech seperti di atas merupakan jalan utama menuju
+          kedamaian
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <small>Copyright &copy; 2021, We Can No Hate - Team CSD-115</small>
+      </div>
+    </footer>
+    <script defer src="./app.js"></script>
+  </body>
+</html>

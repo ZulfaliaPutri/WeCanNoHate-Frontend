@@ -3,36 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>We Can No Hate Frontend</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./styles.css" />
+    <meta name="viewport" content="width=S, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Hate and Abussive</title>
   </head>
   <body>
-    <div id="main-container">
-      <h1>We Can No Hate</h1>
-      <form>
-        <label for="text-input" class="input-label"
-          >masukkan teks yang anda ingin periksa sentimen kebenciannya di bawah
-        </label>
-        <textarea id="text-input" type="text" rows="7"></textarea>
-        <button id="button-input" type="submit">Prediksi</button>
-      </form>
-      <div id="result-hate" class="result hide">
-        <h3>Teks Di Atas Merupakan Hate Speech</h3>
+    <!---header-->
+    <header>
+      <div class="wrapper">
+        <div class="title"><a href="index.html">We Can No Hate</a></div>
+        <div class="menu">
+          <ul>
+            <li class="active"><a href="index.html">Dashboard</a></li>
+            <li><a href="info.html">Information</a></li>
+            <li><a href="analisis.html">Analisis</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!--Tampilan Tengah-->
+    <section class="logo"></section>
+
+    <section class="infoweb">
+      <div class="container">
+        <h3>Mengenai Web</h3>
         <p>
-          Hate Speech tidaklah baik untuk diri sendiri maupun subjek sasaran
-          dari hate speech itu sendiri
+          Website ini ditujukan kepada masyarakat ataupun kawan-kawan sekalian
+          yang mengalami cyberbulying pada Media Sosial salah satunya yaitu
+          Twitter. Dengan adanya website ini diharapkan dapat membantu
+          menganalisis apakah kalimat yang diujarkan oleh pengguna twitter masuk
+          ke <i>Hate Speech dan Abusive Language</i>. Penggunaan Website ini
+          dengan memasukkan kalimat dari salah satu cuitan pengguna twitter
+          kemudian akan di analisis apakah masuk kata <i>positive</i> atau
+          <i>negative</i>
         </p>
       </div>
-      <div id="result-not-hate" class="result hide">
-        <h3>Teks Di Atas Bukan Hate Speech</h3>
-        <p>
-          Menghindari hate speech seperti di atas merupakan jalan utama menuju
-          kedamaian
-        </p>
+    </section>
+
+    <!--Team Capstone-->
+    <section id="team">
+      <div class="partner">
+        <div class="coloumn">
+          <h2>Team</h2>
+          <p>Berikut ini merupakan Team Pembuat Website We Can No Hate</p>
+        </div>
+
+        <div class="partner-list">
+          <div class="partner-foto">
+            <img src="img/novia.jpeg" alt="Foto partner team Novia" />
+            <p>Novia Putri</p>
+          </div>
+          <div class="partner-foto">
+            <img src="img/Lia.jpg" alt="Foto partner team Zulfa" />
+            <p>Zulfazazalia Putri Candra Wati</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <script defer src="./app.js"></script>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <small>Copyright &copy; 2021, We Can No Hate - Team CSD-115</small>
+      </div>
+    </footer>
   </body>
 </html>
