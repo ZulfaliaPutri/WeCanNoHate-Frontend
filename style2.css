@@ -32,7 +32,7 @@ textarea {
   resize: none;
 }
 
-#button-input {
+.submit-button {
   margin-top: 1rem;
   background-color: rgb(74, 130, 202);
   color: white;
