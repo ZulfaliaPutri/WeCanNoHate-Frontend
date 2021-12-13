@@ -62,7 +62,7 @@ header ul li a {
 }
 
 .active {
-  background-color: #148f77;
+  background-color: #9D84B7;
   color: #fff;
 }
 
@@ -106,7 +106,7 @@ section {
 section h3 {
   text-align: center;
   padding: 20px 0;
-  color: #37e6f7;
+  color: #091353;
 }
 
 .infoweb p {
@@ -135,7 +135,7 @@ p {
 .partner {
   text-align: center;
   width: 100%;
-  background-color: #f4c983;
+  background-color: #D5D5D5;
 }
 
 .partner-list {
@@ -175,7 +175,7 @@ p {
 footer {
   padding: 30px 0;
   color: black;
-  background-color: #ff7878;
+  background-color: #9D84B7;
   text-align: center;
   font-weight: bold;
 }
