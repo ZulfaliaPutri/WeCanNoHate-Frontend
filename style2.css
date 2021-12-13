@@ -110,7 +110,7 @@ header ul li a {
 }
 
 .active {
-  background-color: #148f77;
+  background-color: #9D84B7;
   color: #fff;
 }
 
@@ -164,7 +164,7 @@ textarea {
 footer {
   padding: 30px 0;
   color: black;
-  background-color: #ff7878;
+  background-color: #9D84B7;
   text-align: center;
   font-weight: bold;
   margin-top: 23rem;
