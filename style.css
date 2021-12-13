@@ -22,7 +22,7 @@ body {
   font-weight: 800;
   float: left;
   font-family: "Lobster";
-  color: #364f6b;
+  color: #fff;
 }
 
 .menu {
@@ -37,7 +37,7 @@ header {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background: #ffffff;
+  background: #344cb7;
   z-index: 1;
 }
 
@@ -54,7 +54,7 @@ header ul li {
 }
 
 header ul li a {
-  color: black;
+  color: #fff;
   font-weight: bold;
   text-align: center;
   padding: 0px 16px 0px 16px;
@@ -62,7 +62,6 @@ header ul li a {
 }
 
 .active {
-  background-color: #9d84b7;
   color: #fff;
 }
 
@@ -136,7 +135,7 @@ p {
 .partner {
   text-align: center;
   width: 100%;
-  background-color: #d5d5d5;
+  background-color: #fff;
   padding-bottom: 6rem;
 }
 
@@ -184,8 +183,8 @@ p {
 
 footer {
   padding: 30px 0;
-  color: black;
-  background-color: #9d84b7;
+  color: white;
+  background-color: black;
   text-align: center;
   font-weight: bold;
 }
