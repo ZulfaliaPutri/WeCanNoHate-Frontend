@@ -70,7 +70,7 @@ body {
   font-weight: 800;
   float: left;
   font-family: "Lobster";
-  color: #364f6b;
+  color: white;
 }
 
 .menu {
@@ -85,7 +85,7 @@ header {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background: #ffffff;
+  background: #344cb7;
   z-index: 1;
 }
 
@@ -102,7 +102,7 @@ header ul li {
 }
 
 header ul li a {
-  color: black;
+  color: white;
   font-weight: bold;
   text-align: center;
   padding: 0px 16px 0px 16px;
@@ -110,7 +110,6 @@ header ul li a {
 }
 
 .active {
-  background-color: #9d84b7;
   color: #fff;
 }
 
@@ -138,7 +137,7 @@ header ul li a {
   font-size: 20px;
   font-weight: bold;
   font-family: "comic sans ms";
-  color: #364f6b;
+  color: black;
 }
 
 .kolom p {
@@ -154,7 +153,7 @@ section {
 section h3 {
   text-align: center;
   padding: 20px 0;
-  color: #37e6f7;
+  color: #000;
 }
 
 textarea {
@@ -163,8 +162,8 @@ textarea {
 
 footer {
   padding: 30px 0;
-  color: black;
-  background-color: #9d84b7;
+  color: white;
+  background-color: black;
   text-align: center;
   font-weight: bold;
   margin-top: 15rem;

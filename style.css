@@ -17,6 +17,10 @@ body {
   position: relative;
 }
 
+.wrapper img {
+  width: 600px;
+}
+
 .title a {
   font-size: 35px;
   font-weight: 800;
@@ -106,13 +110,14 @@ section {
 section h3 {
   text-align: center;
   padding: 20px 0;
-  color: #091353;
+  color: black;
 }
 
 .infoweb p {
   color: #666;
   word-spacing: 2px;
   line-height: 25px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -127,15 +132,16 @@ section h3 {
   clear: both;
 }
 
-p {
+.kolom p {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 0px;
+  font-size: 17px;
 }
 
 .partner {
   text-align: center;
   width: 100%;
-  background-color: #fff;
+  background-color: #f9f9f9;
   padding-bottom: 6rem;
 }
 
@@ -179,6 +185,7 @@ p {
 
 .coloumn p {
   text-align: center;
+  font-size: 17px;
 }
 
 footer {
