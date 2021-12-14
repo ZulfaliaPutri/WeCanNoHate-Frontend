@@ -94,6 +94,8 @@ header ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 header ul li {
@@ -107,10 +109,16 @@ header ul li a {
   text-align: center;
   padding: 0px 16px 0px 16px;
   text-decoration: none;
+  transition: font-size 200ms;
 }
 
 .active {
   color: #fff;
+  font-weight: 800;
+}
+
+header ul li a:hover {
+  font-size: 1.1em;
 }
 
 .logo {
