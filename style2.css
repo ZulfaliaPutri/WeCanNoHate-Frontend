@@ -65,7 +65,7 @@ body {
   position: relative;
 }
 
-.title a {
+.title {
   font-size: 35px;
   font-weight: 800;
   float: left;
