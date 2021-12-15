@@ -73,6 +73,26 @@ body {
   color: white;
 }
 
+.title {
+  transition: color 200ms;
+}
+
+.title:link {
+  color: #fff;
+}
+
+.title:visited {
+  color: #fff;
+}
+
+.title:hover {
+  color: #ffe100;
+}
+
+.title:active {
+  color: #fff;
+}
+
 .menu {
   float: right;
 }
