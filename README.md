@@ -15,4 +15,14 @@ git clone https://github.com/ZulfaliaPutri/WeCanNoHate-Frontend
 ```
 
 ## Cara Menjalankan Project ini
-Setelah melakukan clone dapat dilanjutkan dengan membuka VSCode. Bagi belum memiliki Live Server pada VSCode dapat menginstall terlebih dahulu 
+1. Melakukan clone yang dapat dilanjutkan dengan membuka VSCode
+2. Pilih Live Server yang berada di kanan bawah dengan nama "Go Live".  Bila tidak memiliki live server dapat melakukan install terlebih dahulu dengan cara :
+   * Klik icon Extentions 
+   * Lakukan pencarian dengan menuliskan "Live Server"
+   * Kemudian lakukan install dan tunggu sampai selesai maka live server sudah bisa digunakan.
+3. Setelah itu, tampilan website akan tertampil pada browser anda.
+
+## Link Dokumentasi Image yang digunakan
+  * https://undraw.co/illustrations
+  * https://assets.teenvogue.com/photos/562e49468005ecb91d2effaf/16:9/w_2560%2Cc_limit/cyberbullying.jpg
+  * https://www.canva.com/
