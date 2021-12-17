@@ -26,3 +26,6 @@ git clone https://github.com/ZulfaliaPutri/WeCanNoHate-Frontend
   * https://undraw.co/illustrations
   * https://assets.teenvogue.com/photos/562e49468005ecb91d2effaf/16:9/w_2560%2Cc_limit/cyberbullying.jpg
   * https://www.canva.com/
+
+## Library or external repository/API used:
+* https://github.com/jquery/jquery
