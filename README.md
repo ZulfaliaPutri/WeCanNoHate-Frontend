@@ -1,6 +1,8 @@
 # WeCanNoHate-Frontend
+![Screenshot 2021-12-17 163057](https://user-images.githubusercontent.com/81318203/146514092-3dbac484-1a79-4b85-bbcf-9f735e007503.jpg)
 Website yang mendeteksi penggunaan kata atau kalimat yang mengandung <i>hate speech</i> dan <i>abusive language</i>. 
 Pada project ini menggunakan Machine Learning dan Front-End yang dihubungkan dengan Back-End kemudian di deploy menggunakan Platform <i> Heroku </i>.
+<br>Link Website dapat diakses sebagai berikut : https://wecannohate.herokuapp.com
 
 ## Deskrpisi Project
 <p> Ujaran kebencian dan kata-kata kasar dapat ditemukan dalam beberapa cuitan pengguna twitter, yang mana hal ini bisa saja menimbulkan perpecahan di masyarakat dan berdampak
